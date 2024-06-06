@@ -1,0 +1,114 @@
+      
+.blog-cabecalho {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-cabecalho-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-cabecalho-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+ 
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+.blog-titulo {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.blog-descricao {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-titulo {
+    font-size: 3.5rem;
+  }
+}
+
+/* Paginação */
+.blog-numeracao {
+  margin-bottom: 4rem;
+}
+.blog-numeracao > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Posts do blog
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-titulo {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-dados {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+.blog-rodape {
+  margin: 1rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+
+.blog-rodape p:last-child {
+  margin-bottom: 0;
+}
+
+.img-aluno img, .img-avatar img, .img-candidato img {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+}
+
+.semfoto {
+  width: 7rem;
+  height: 7rem;
+  background-color: gainsboro;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .25rem;
+}
